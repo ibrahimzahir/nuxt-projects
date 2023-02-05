@@ -1,14 +1,14 @@
 <template>
-    <header>
-       <nav>
-        <NuxtLink to="/products">Nust joho</NuxtLink>
+    <header class="shadow-sm bg-white">
+       <nav class="container mx-auto p-4 flex justify-between">
+        <NuxtLink to="/products" class="font-bold">Nust joho</NuxtLink>
        </nav>
     </header>
     <div>
         <slot />
     </div>
     <footer>
-        <ul>
+        <ul class="flex gap-4">
             <li>
                 <NuxtLink to="/">Home</NuxtLink>
             </li>
