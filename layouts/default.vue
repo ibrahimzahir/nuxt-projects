@@ -1,5 +1,6 @@
 <template>
-    <header>
+    <div>
+        <header>
         <nav>
             <NuxtLink to="/">Nuxt Dojo</NuxtLink>
             <ul>
@@ -16,6 +17,7 @@
             </ul>
         </nav>
     </header>
+    </div>
     <div>
         <slot />
     </div>
