@@ -8,7 +8,7 @@
         <slot />
     </div>
     <footer>
-        <ul class="flex gap-4">
+        <ul class="container mx-auto p-4 flex gap-4">
             <li>
                 <NuxtLink to="/">Home</NuxtLink>
             </li>
