@@ -1,8 +1,8 @@
 <template>
     <div class="container mx-auto p-4 flex justify-between">
         <div class="grid grid-cols-4 gap-5">
-            <div v-for="(product) in products"  :key="product.title">
-                <NuxtLink :to="`/products/${product.id}`">{{product.title}} </NuxtLink>
+            <div v-for="product in products"  :key="product.title">
+                <ProductCard :product="product"/>
             </div>
         </div>
     </div>

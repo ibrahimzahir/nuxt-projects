@@ -1,8 +1,6 @@
 <template>
     <div>
-        <p>{{product?.id}}</p>
-        <p>{{product?.title}}</p>
-        <p>{{product?.price}}</p>
+      <productDetails :product="product" />
        
     </div>
 </template>
